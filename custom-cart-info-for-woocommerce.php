@@ -1,14 +1,14 @@
 <?php
 /*
 Plugin Name: Custom Cart and Checkout Info for WooCommerce
-Plugin URI: https://wordpress.org/plugins/custom-cart-and-checkout-info-for-woocommerce/
+Plugin URI: https://algoritmika.com/
 Description: Add custom info to WooCommerce cart page, checkout page and/or mini cart.
-Version: 2.0.0
+Version: 2.0.1
 Author: Algoritmika Ltd
-Author URI: https://profiles.wordpress.org/algoritmika/
+Author URI: https://algoritmika.com/
 Text Domain: custom-cart-and-checkout-info-for-woocommerce
 Domain Path: /langs
-WC tested up to: 9.8
+WC tested up to: 10.3
 Requires Plugins: woocommerce
 License: GNU General Public License v3.0
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
@@ -36,7 +36,7 @@ if ( 'custom-cart-info-for-woocommerce.php' === basename( __FILE__ ) ) {
 	}
 }
 
-defined( 'ALG_WC_CCCI_VERSION' ) || define( 'ALG_WC_CCCI_VERSION', '2.0.0' );
+defined( 'ALG_WC_CCCI_VERSION' ) || define( 'ALG_WC_CCCI_VERSION', '2.0.1' );
 
 defined( 'ALG_WC_CCCI_FILE' ) || define( 'ALG_WC_CCCI_FILE', __FILE__ );
 
